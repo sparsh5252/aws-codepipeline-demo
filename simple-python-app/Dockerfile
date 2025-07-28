@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Expose the port the Flask application will be listening on
-EXPOSE 9090
+EXPOSE 8080
 
 # Set environment variables, if necessary
 # ENV MY_ENV_VAR=value
